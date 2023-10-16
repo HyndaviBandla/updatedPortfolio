@@ -1,0 +1,47 @@
+body{
+    /* background color:white; */
+    background-color: dimgray;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    margin: 0;
+
+    }
+    header{
+        background-color: black;
+        padding: 50px 20px;
+    }
+    section{
+        background-color: white;
+        color:black;
+        padding:20px;
+        display:flex;     
+         /* verify flex */
+        flex-direction: row;
+    }
+    div{
+        background-color: rgb(237, 237, 155);
+        /* display:inline-block;  */
+        width:50px;
+        height: 20px;
+        margin: auto; 
+    }
+    footer{
+        background-color: black;
+        padding: 10px 20px;
+        /* font-style: italic; */
+    }
+ul{
+border: 0;
+padding:0;
+list-style: none;  
+/* "list-style-type "is none  used so bullet points symbol was gone */
+}
+li{
+display: inline-block;  
+/* due to above one only they are comming side by side */
+margin-left: 40px;
+}
+
+
+
+
